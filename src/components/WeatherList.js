@@ -3,7 +3,6 @@ import { Row, Col } from "react-bootstrap";
 import WeatherCard from "./WeatherCard";
 
 const WeatherList = ({ weathers }) => {
-  debugger;
   return (
     <Row>
       {weathers.map(({ dt, main, weather }, index) => (

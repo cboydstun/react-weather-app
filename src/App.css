@@ -22,5 +22,6 @@ body {
 .card-container {
   background-color: white;
   padding: 0.5rem;
+  margin: 0.25rem;
   border-radius: 2rem;
 }
