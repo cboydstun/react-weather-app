@@ -12,7 +12,7 @@ const useFetch = (initialUrl) => {
     setData(null);
     setError(null);
     fetch(url)
-      .then((r) => r.json())
+      .then((res) => res.json())
       .then((data) => {
         setInProgress(false);
         if (data.cod >= 400) {
